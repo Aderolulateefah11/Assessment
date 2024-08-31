@@ -1,0 +1,181 @@
+.Testimonialsbutton{
+    text-align: center;
+}
+.Testimonialsbuttons{
+    border: 1px solid grey;
+    border-radius: 10px;
+    height: 25px;
+    width: 110px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.allcontent{
+    margin: 60px 20px;
+}
+.firstcontent{
+   display: flex;
+   justify-content: space-between;
+   margin: 10px 80px;
+   
+}
+.secondcontent{
+    display: flex;
+   justify-content: space-between;
+   margin: 10px 80px;
+}
+.thirdcontent{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 80px;
+   
+}
+.first{
+    background-color: white;
+    width: 29%;
+     border: 5px solid white;
+     padding: 20px;
+     border-radius: 10px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     height: 100%;
+}
+.second{
+    background-color: white;
+    width: 29%;
+     border: 5px solid white;
+     padding: 20px;
+     border-radius: 10px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     height: 100%;
+     background-color: rgba(255, 255, 255, 1);
+}
+.third{
+    background-color: white;
+    width: 29%;
+     border: 5px solid white;
+     padding: 25px;
+     border-radius: 10px;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     height: 100%;
+     padding-left: 20px;
+     background-color: rgba(255, 255, 255, 1);
+     ;
+}
+
+.context{
+    text-align: center;
+    margin-top: 150px;
+    font-family: sans-serif;
+    
+    
+}
+.emojistar{
+    width: 362px;
+    height: 362px;
+    top: -300px;
+left: 110px;
+gap: 0px;
+opacity: 0px;
+position: relative;
+
+}
+.helix2{
+    width: 363px;
+    height: 362px;
+    top: -613px;
+    left: 858px;
+    gap: 0px;
+    opacity: 0px;
+position: relative;
+}
+.free{
+    background-color: black;
+    color: white;
+    height: 35px;
+    width: 105px;
+    border-radius: 10px;
+    font-size: 15px;
+    margin: 20px 10px;
+}
+.learn{
+    font-weight: bolder;
+    font-size: 15px;
+    
+}
+.arrow{
+    margin-bottom: -5px;
+}
+.lastcontent{
+    background:  linear-gradient(180deg, #FFFFFF 27.96%, #D2DCFF 100%);
+    height: 350px;
+    margin: 0 70px;
+}
+@media(max-width:480px){
+    .allcontent{
+        flex-direction: column;
+        font-size: 20px;
+    }
+    .firstcontent{
+        flex-direction: column;
+        width: 680px;
+    }
+    .secondcontent{
+        flex-direction: column;
+        width: 680px;
+    }
+    .thirdcontent{
+        flex-direction: column;
+        width: 680px;
+    }
+     .first{
+        display: none;
+     }
+     .second{
+        display: none;
+     }
+     .Testimonialsbutton{
+        width: 900px;
+     }
+     .emojistar{
+        visibility: hidden;
+     }
+     .helix2{
+        visibility: hidden;
+     }
+     .lastcontent{
+        width: 400px;
+     }
+}
+@media(max-width:768px){
+    .allcontent{
+        flex-direction: row;
+        width: 100px;
+    }
+    .firstcontent{
+        width: 800px;
+        gap: 2%;
+    }
+    .secondcontent{
+        width: 800px;
+        gap: 2%;
+    }
+    .thirdcontent{
+        width: 800px;
+        gap: 2%;
+        
+    }
+    .lastcontent{
+        margin-top: 200px;
+    }
+    .emojistar{
+        margin-top: 20px;
+        margin-left: -58%;
+    }
+    .helix2{
+        margin-left: -380px;
+    }
+}
+
+   
+
+
+

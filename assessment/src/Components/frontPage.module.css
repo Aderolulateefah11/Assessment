@@ -1,0 +1,235 @@
+
+/*.allcontainer{
+    width: 1500px;
+height: 800px;
+gap: 0px;
+opacity: 0px;
+background:  linear-gradient(180deg, #FFFFFF 27.96%, #183EC2 100%)
+
+
+}
+.versions{
+    margin-left: 25px;
+    margin-top: 150px;
+    font-weight: 700;
+    border: 1px solid  grey;
+    border-radius: 10px;
+    width: 125px;
+    height: 22px;
+    padding: 3px;
+}
+
+.cylinder{
+position: relative;
+padding-left: 22%;
+margin-top: -95px;
+}
+.pathway{
+
+font-size: 60px;
+margin-bottom: 20px;
+margin-top: -19px;
+padding-left: 20px;
+font-family: sans-serif;
+font-size: 90px;
+font-weight: 700;
+line-height: 90px;
+letter-spacing: -0.065em;
+text-align: left;
+
+}
+.productivity{
+text-transform: capitalize;
+font-size: 60px;
+margin-top: -10px;
+padding-left: 20px;
+font-family: sans-serif;
+font-size: 90px;
+font-weight: 700;
+line-height: 90px;
+letter-spacing: -0.065em;
+text-align: left;
+
+}
+
+.free{
+width: 40px;
+margin-top: 10px;
+border-radius: 5px;
+color: white;
+
+
+}
+.freepara{
+height:35px;     
+margin-top: 40px;
+border-radius: 10px;
+margin-left: 10px;
+background-color: #000000;
+}
+.learn{
+margin-left: 8%;
+color: #000000;
+font-size: large;
+font-weight: 600;
+margin-top:-40px;
+
+}
+.learndiv{
+margin-top: -45px;
+text-transform: capitalize;
+}
+.arrows{
+    margin-bottom: -5px;
+    margin-left: 15px;
+}
+.imgages{
+display: grid;
+}
+.halftorus{
+position: absolute;
+left: 70%;
+margin-top: 250px;  
+}
+.Visualss{
+position: absolute;
+left: 40%;
+margin-top: -320px; 
+}
+.paragraph{
+margin-left:10px;
+padding-left: 10px; 
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: large;
+} */
+
+
+.allcontainer{
+    background-image: url("../Images/Visualss.png");
+    background-clip: content-box;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:center;
+    width: 300vh;
+    height: 95vh; 
+
+    /*background-image:linear-gradient(180deg, #FFFFFF 27.96%, #183EC2 100%);*/
+}
+.cylinder{
+   margin-left: 25%;
+}
+.pathway{
+
+    font-size: 60px;
+    margin-bottom: 20px;
+    margin-top: -19px;
+    padding-left: 55px;
+    font-family: sans-serif;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 90px;
+    letter-spacing: -0.065em;
+    text-align: left;
+    
+    }
+.productivity{
+    text-transform: capitalize;
+    font-size: 60px;
+    margin-top: -10px;
+    padding-left: 55px;
+    font-family: sans-serif;
+    font-size: 90px;
+    font-weight: 700;
+    line-height: 90px;
+    letter-spacing: -0.065em;
+    text-align: left;
+    
+    }
+    .versions{
+        margin-left: 55px;
+        margin-top: -100px;
+        margin-bottom: 60px;
+        font-weight: 700;
+        border: 1px solid  grey;
+        border-radius: 10px;
+        width: 125px;
+        height: 22px;
+        padding: 3px;
+    }
+    .paragraph{
+        margin-left:10px;
+        padding-left: 40px; 
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: large;
+    }
+    .halftorus{
+       margin-left: 56%;
+        margin-top: -80px; 
+        margin-bottom: -40px; 
+        }
+        .free{
+            width: 40px;
+            margin-top: 10px;
+            border-radius: 15px;
+            color: white;
+            background-color: black;
+            }
+            .freepara{
+                height:35px;     
+                margin-top: 30px;
+                border-radius: 10px;
+                margin-left: 50px;
+                background-color: #000000;
+                }
+                .arrows{
+                    margin-bottom: -5px;
+                    margin-left: 15px;
+                }
+                .learn{
+                    color: #000000;
+                    font-size: large;
+                    font-weight: 600;
+          margin-top:-40px;
+                    
+     }
+    @media(max-width:480px){
+        .cylinder{
+            display: none;
+        }
+        .halftorus{
+            display: none;
+        }
+        .versions{
+            margin-top: 25px;
+        }
+        .allcontainer{
+            background-image: url("../Images/Visualss.png");
+            background-position: center;
+            background-size: contain;
+            z-index: -1;
+            width: 500px;
+            height: 1900px;
+            margin-bottom: -200px;
+            
+      }
+      .firstcontainer{
+        position: relative;
+        z-index: 1;
+      }
+      .paragraph{
+        font-size:25px;
+      }
+    }
+       @media(max-width:768px){
+           .halftorus{
+            display: none;
+           }
+           .allcontainer{
+            width: 2200px;
+            
+           }
+       }
+       
+    
+   
+
