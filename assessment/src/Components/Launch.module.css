@@ -1,0 +1,112 @@
+body{
+    overflow-x: hidden;
+}
+.bigcontainer{
+    margin: 10px 30px;
+}
+.context{
+    text-align: center;
+    
+}
+.boost{
+    border: 1px solid gray;
+    height: 30px;
+    border-radius: 12px;
+    width: 155px;
+    text-align: center;
+    background-color: transparent;
+    margin-top: 70px;
+    
+    
+}
+.h1{
+   font-weight: bolder;
+   font-size: 55px;
+   margin-bottom: -45px;
+
+}
+.hh1{
+    font-weight: bolder;
+   font-size: 55px;
+   margin-right: -25px;
+   
+}
+.allContent{
+    padding-bottom: 70px;
+    background:  linear-gradient(180deg, #FFFFFF 27.96%, #D2DCFF 100%)
+     ;
+}
+.ProductImage{
+    position:relative;
+}
+.pyramid{
+    float: right;
+    margin-top: -44%;
+   margin-left: 67%;
+    position: absolute;
+}
+.torus{
+    margin-top: -25%;
+    position: absolute;
+}
+.footer{
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 45px;
+}
+.arrow{
+    float: right;
+    margin-top:-18px;
+    margin-right: 110px;
+}
+.arrows{
+    float: right;
+    margin-top:-19px;
+    margin-right: 100px;
+}
+button{
+    background-color: transparent;
+    border: none;
+    padding-top:-20px;
+}
+
+@media(max-width:468px){
+    .torus{
+      display: none;
+    }
+    .pyramid{
+      display: none;
+    }
+    .allContent{
+      width: 1200px;
+    }
+      .footer{
+         display: flex;
+         flex-direction: column;
+         padding: 0 70px;
+         font-size: 30px;
+      }
+      .context{
+        padding: 0;
+        width: 1000px;
+      }
+}
+@media(max-width:768px){
+  .allContent{
+    width: 1200px;
+  
+  }
+  .torus{
+    margin-top: -460px;
+    margin-left: 50px;
+  }
+  .pyramid{
+    margin-top: -880px;
+    margin-left: 1000px;
+  }
+}
+
+
+

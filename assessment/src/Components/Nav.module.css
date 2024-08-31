@@ -1,0 +1,114 @@
+
+header{
+    text-transform: capitalize;   
+}
+.context{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+}
+.Icon1{
+    display: none;
+}
+
+.logo{
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+    padding: 0 25px;
+    margin-top: -10px;
+   
+}
+.navlist{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; 
+}
+ .list{
+    list-style: none;
+    justify-content: space-between;
+    font-family: Inter;
+}
+
+.help{
+    background-color: #000000;
+    color: white;
+    height: 30px;
+    border-radius: 10px;
+    padding: 5px; 
+    margin-top: 5px; 
+}
+.helplink{
+    color: white;
+    height: 25px;
+    border-radius: 10px;
+}
+.webkit{
+    color: gray;
+    width: Hug (1,362px)px;
+height: Hug (6,610px)px;
+left: -81px;
+gap: 0px;
+opacity: 0px;
+
+}
+.kitlink{
+    color: white;
+    width: Hug (1,362px)px;
+    height: Hug (6,610px)px;
+    left: -81px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+.kitimg{
+    color: white;
+}
+.Bar{
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    height: 40px;
+    padding-bottom: 0.5px;
+    
+}
+.paralink{
+    color: white;
+}
+
+@media(max-width:468px){
+    .dd{
+        position: relative;
+        display: inline-block;
+    }
+    .navlist{
+        visibility: hidden;
+        position: absolute;
+    }
+    .Icon1{
+        margin-top: 30px;
+    }
+    
+  
+}
+@media(max-width:768px){
+    .Icon1{
+        display: block;
+    }
+}
+@media (min-width:768px){
+    .Icon1{
+        display: none;
+    }
+    .header{
+        width: 700px;
+        padding: 0;
+        }
+
+        
+}
