@@ -6,7 +6,7 @@ import Icon1 from "../Images/Icons1.png"
 
 export default function Navscreen(){
     return (
-    <div>
+    <div className={styles.Barss}>
             <div className={styles.Bar}>
                 <p className={styles.webkit}>This page is included in a free SaaS Website Kit. <a className={styles.kitlink}>
                 View the complete Kit <img className={styles.kitimg} src={Arrow} /></a></p>
@@ -15,11 +15,10 @@ export default function Navscreen(){
                <div className={styles.logo}>
                   <img src={Logo}  alt=""/>
                 </div>
-                <div className={styles.dd}>
-                
-                   <header className={styles.header}>
+                <div>
+                 <header className={styles.header}>
                      <nav  className={styles.nav}>
-                    <button className={styles.Icon1}><img  src={Icon1} alt="" /></button> 
+                       <img className={styles.Icon1}  src={Icon1} alt="icon" />
                        <ul className={styles.navlist}>
                         <li className={styles.list}>
                            <a href="Navscreen">about</a>

@@ -14,11 +14,11 @@ export default function VisualImage(){
         <div className={styles.contentss}>
             <div className={styles.firstcontent}>
               <button className={styles.buttonneed}>Everything you need</button>
-             <h1>Streamlined for easy</h1>
+             <h1 className={styles.easy}>Streamlined for easy</h1>
              <h1 className={styles.management}>management</h1>
-             <p>Enjoy customized lists,team work tools,and smart </p>
-             <p>tracking all in one place.Set tasks,get reminders,and</p>
-             <p>see your progress simply and quickly</p>
+             <p className={styles.customised}>Enjoy customized lists,team work tools,and smart   </p>
+             <p className={styles.task}>tracking all in one place.Set tasks,get reminders,and</p>
+             <p className={styles.progress}>see your progress simply and quickly</p>
             </div>
            <div className={styles.helixcontainer}>
             

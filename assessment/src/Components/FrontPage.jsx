@@ -9,8 +9,9 @@ import styles from "./frontPage.module.css"
 
 export default  function FrontPage() {
     return (
-        <div className={styles.allcontainer}>
+        < div className={styles.allcontainer}>
 
+        
        <div className={styles.firstcontainer}>
           <div className={styles.cylinder}>
              <img  src={cylinder} alt=""/>
@@ -33,12 +34,15 @@ export default  function FrontPage() {
              </div>
        </div>
        <div className={styles.secondcontainer}>
-           
+         <div className={styles.Visualss}>
+           <img src={Visualss} alt="" />
+          </div>  
            <div className={styles.halftorus}>
               <img src={halftorus} alt="halftorus" />
             </div> 
        </div> 
         </div>
+        
     ) 
 }
    

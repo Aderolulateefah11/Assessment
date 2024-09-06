@@ -9,7 +9,7 @@ import Default from "../Images/Default.png"
 import styles from "./Footer.module.css"
 export default function Footer(){
     return (
-       <div>
+       <div className={styles.allcontext}>
             
             <footer >
             <div className={styles.bigcontainer}>

@@ -120,24 +120,30 @@
         width: 90%;
     }
 }
-@media(max-width:768px){
+@media(max-width:1200px){
     .bigcontainer{
         flex-direction: column;
         gap: 5px;
         width: 968px;
+        margin-left: 200px;
+    }
+    .boostcontainer{
+        margin-left: -100px;
+        font-size: larger;
     }
     .firstdiv{
         flex-direction: column;
         gap: 25px;
         width: 50%;
         font-size: 30px;
+        margin-left: 40px;
         
     }
     .seconddiv{
         flex-direction: column;
         gap: 25px;
         width: 50%;
-        align-self: center;
+        
         font-size: 30px;
     }
     .thirddiv{

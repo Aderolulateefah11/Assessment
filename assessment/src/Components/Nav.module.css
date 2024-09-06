@@ -8,7 +8,7 @@ header{
     height: 100px;
 }
 .Icon1{
-    display: none;
+    visibility: hidden;
 }
 
 .logo{
@@ -16,8 +16,8 @@ header{
 }
 a{
     text-decoration: none;
-    padding: 0 25px;
-    margin-top: -10px;
+    padding: 0 35px;
+    
    
 }
 .navlist{
@@ -28,6 +28,7 @@ a{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row; 
+    margin-top: -20px;
 }
  .list{
     list-style: none;
@@ -41,7 +42,7 @@ a{
     height: 30px;
     border-radius: 10px;
     padding: 5px; 
-    margin-top: 5px; 
+    margin-top: 15px; 
 }
 .helplink{
     color: white;
@@ -81,34 +82,60 @@ opacity: 0px;
     color: white;
 }
 
-@media(max-width:468px){
-    .dd{
-        position: relative;
-        display: inline-block;
-    }
+@media(max-width:480px){
     .navlist{
         visibility: hidden;
-        position: absolute;
+        
     }
     .Icon1{
-        margin-top: 30px;
+        visibility: visible;
+        margin-top: 50px;
+        margin-left: 140vh;
+        
+    }
+    .Bar{
+       width:480px;
+       font-size: 25px;
     }
     
   
 }
-@media(max-width:768px){
-    .Icon1{
-        display: block;
+@media(max-width:1200px){
+    
+    
+    .nav{
+     width: 1000px;
+     padding: 0 15px;
+     margin-top:-20px;
+     font-size: 25px;
+     margin-left: 25vh;
+    }
+    .Bar{
+    width: 1265px;
+    margin-left: 10px;
+    }
+    .helplink{
+        height: 15px;
+        font-size: 20px;
+    }
+    .help{
+        height: 20px;
+        border-radius: 10px; 
+    }
+    .webkit{
+       width: 1200px; 
+    }
+    
+    .help{
+        font-size: 25px;
+        height: 45px;
+        margin-left: 70px;
+    }
+    .logo{
+        margin-top: 20px;
     }
 }
-@media (min-width:768px){
-    .Icon1{
-        display: none;
-    }
-    .header{
-        width: 700px;
-        padding: 0;
-        }
+
 
         
-}
+

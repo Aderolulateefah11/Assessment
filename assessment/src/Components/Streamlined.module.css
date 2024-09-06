@@ -101,26 +101,65 @@
         width: 590px;
         font-size: 30px;
     }
-}
-@media(max-width:768px){
+    .easy{
+        margin-left:500px ;
+        font-size: 50px;
+        
+    }
+    .management{
+        margin-left:500px ;
+        font-size: 50px;
+    }
+    .firstcontent p{
+        
+            padding-left: 20px;
+            font-size: larger;
+            width: 100%;
+          }
+    }
+
+@media(max-width:1200px){
     .helixcontainer{
         flex-direction: column;
         width: 100%;
         font-size: 25px;
+        ;
     }
     .cubehelix{
-        width: 590px;
+        width: 650px;
         font-size: 30px;
+        margin-left: 300px;
     }
     .helix{
-        width: 590px;
+        width: 650px;
         font-size: 30px;
+        margin-left: 300px;
     }
-    .firstcontent{
-        justify-content: center;
+    .buttonneed{
+        width: 250px;
+        height: 50px;
         font-size: 25px;
+        margin-left: 500px;
+        
         
     }
+    .easy{
+        margin-left:500px ;
+        font-size: 50px;
+        
+    }
+    .management{
+        margin-left:500px ;
+        font-size: 50px;
+    }
+  .firstcontent p{
+    margin-left: 250px;
+    width: 100%;
+    font-size: 25px;
+  }
+  .firstcontent{
+    width: 800px;
+  }
 }
 
 

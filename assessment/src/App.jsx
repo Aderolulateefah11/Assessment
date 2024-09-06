@@ -7,6 +7,7 @@ import Track from './Components/Track'
 import Testimonials from './Components/Testimonial'
 import Footer from './Components/Footer'
 import FrontPage from './Components/FrontPage'
+import Signup from "./Components/Signup"
 
 function App() {
   
@@ -20,7 +21,9 @@ function App() {
     <VisualImage />
     <Track />
     <Testimonials/>
+    <Signup />
     <Footer/>
+
     </div>
     
     </div>

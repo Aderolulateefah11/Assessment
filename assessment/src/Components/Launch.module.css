@@ -72,7 +72,7 @@ button{
     padding-top:-20px;
 }
 
-@media(max-width:468px){
+@media(max-width:480px){
     .torus{
       display: none;
     }
@@ -85,18 +85,29 @@ button{
       .footer{
          display: flex;
          flex-direction: column;
-         padding: 0 70px;
+         padding: 0 200px;
          font-size: 30px;
+         font-size: 35px;
+        
       }
       .context{
         padding: 0;
         width: 1000px;
       }
 }
-@media(max-width:768px){
+@media(max-width:1200px){
   .allContent{
     width: 1200px;
+    font-size: 30px;
   
+  }
+  .context{
+    font-size: 30px;
+    margin-left: 350px;
+    width: 700px;
+  }
+  .ProductImage{
+    width: 400px;
   }
   .torus{
     margin-top: -460px;
